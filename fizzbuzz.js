@@ -6,9 +6,7 @@ function fizzBuzz (num) {
   if (num % 5 === 0) {
     str += 'Buzz'
   }
-  if (str != '') {
-    return str
-  } else {
-    return num
-  }
+  if (str !== '') { return str }
+  
+  return num
 }
