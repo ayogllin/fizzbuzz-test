@@ -17,8 +17,8 @@ describe('Test fizzBuzz function', function (){
 	})
 	// [case 3] input: 15, expect output : FizzBuzz
 	it('should return FizzBuzz when input is divisible by 3 and 5', function() {
-		let input = 10
-		let output = 'Buzz'
+		let input = 15
+		let output = 'FizzBuzz'
 		let result = fizzBuzz(input)
 		result.should.be.equal(output)
 	})
